@@ -1,24 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mr. Racer</title>
-  <style>
-    body, html {
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      height: 100%;
-    }
-    canvas {
-      display: block;
-      background-color: #87CEEB; /* Sky blue background */
-    }
-  </style>
+  <title>Google Snake Game Clone</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <canvas id="gameCanvas"></canvas>
-  <script src="game.js"></script>
+
+<h1>Snake</h1>
+<canvas id="game" width="400" height="400"></canvas>
+<p class="info">
+  Use arrow keys to move.  
+  Press Space to restart.
+</p>
+
+<script src="game.js"></script>
 </body>
 </html>
+
